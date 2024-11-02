@@ -9,7 +9,11 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-
+	<style>
+		span{
+			color:red;
+		}
+	</style>
 
 	<!-- -----Job Application Form------- -->
 
@@ -20,7 +24,7 @@
 
 		
 		<div class="form_group">
-			<label for="name">Name *</label>
+			<label for="name">Name <span>*</span></label>
 			<input id="name" type="text" placeholder="Name" required>
 		</div>
 		<br>
@@ -28,7 +32,7 @@
 		<!-- ----------Email Section----- -->
 
 		<div class="form_group">
-			<label for="email">Email *</label>
+			<label for="email">Email <span>*</span></label>
 			<input id="email" type="email" placeholder="Email" required>
 		</div>
 		<br>
@@ -36,10 +40,10 @@
 		<!-- --------Gender Section----------- -->
 
 		<div class="form_group">
-			<label for="gender">Gender *</label>
+			<label for="gender">Gender <span>*</span></label>
 			<input id="gender_m" type="radio" name="gender" required>Male
 			<input id="gender_f" type="radio" name="gender" required>Female
-			<input id="gender_o" type="radio" name="gender" required>Others
+			
 			
 		</div>
 		<br>
@@ -50,7 +54,7 @@
 		<div class="form_group">
 			<label for="laptop">Laptop Brands</label>
 			<select id="laptop">
-				<!-- <option>--Please select option--</option> -->
+				<option>--Please select option--</option>
 				<option>Apple</option>
 				<option>Asus</option>
 				<option>HP</option>
@@ -64,7 +68,7 @@
 
 		
 		<div class="form_group">
-			<label for="age">Age *</label>
+			<label for="age">Age <span>*</span></label>
 			<input id="age" type="number" placeholder="Age" required>
 		</div>
 		<br>
@@ -73,7 +77,7 @@
 
 		
 		<div class="form_group">
-			<label for="dob">Date of Birth *</label>
+			<label for="dob">Date of Birth <span>*</span></label>
 			<input id="dob" type="date"  required>
 		</div>
 		<br>
@@ -82,7 +86,7 @@
 
 		
 		<div class="form_group">
-			<label for="password">Password *</label>
+			<label for="password">Password<span>*</span></label>
 			<input id="password" type="password" placeholder="Password" required>
 		</div>
 		<br>
